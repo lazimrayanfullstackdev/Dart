@@ -9,18 +9,18 @@ main(){
   print(numbers);
   numbers.insertAll(0, [1,2,3,4]);
   print(numbers);
-  print("List numbers index wise at index 8: ${numbers[8]}");
-  numbers[0] = 80;
+  print("List numbers index wise at index 8: ${numbers[8]}");//See value at specific index
+  numbers[0] = 80;//assigning value at specific index
   print(numbers);
-  numbers.sort();
+  numbers.sort();//sort List ascending order
   print(numbers);
-  numbers.remove(2);
+  numbers.remove(2);//remove a specific value from List
   print(numbers);
-  numbers.removeAt(0);
+  numbers.removeAt(0);//remove a value from specific index
   print(numbers);
-  numbers.removeLast();
+  numbers.removeLast();//removing last added value
   print(numbers);
-  print("List Length: ${numbers.length}");
-  numbers.clear();
+  print("List Length: ${numbers.length}");//finding out the length of a List
+  numbers.clear();//clear the List
   print(numbers);
 }
