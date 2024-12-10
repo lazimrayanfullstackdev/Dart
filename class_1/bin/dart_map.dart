@@ -33,9 +33,8 @@ main(){
   print(keyList);
   print(valueList);
 
-  var nameList = person['name'];
-  if(nameList is List){
-    nameList.add("Reshma");
-  }
+  var nameList = person['name'] as List;
+  nameList.add("Reshma");
+  print(nameList);
   print(person);
 }
