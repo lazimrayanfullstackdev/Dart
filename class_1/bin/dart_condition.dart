@@ -28,5 +28,5 @@ main() {
     default:
       print("Wrong Username & Password, Try Again");
       break;
-  };
+  }
 }

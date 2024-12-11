@@ -6,11 +6,11 @@ main(){
   }
 
   List names = ['Lazim','Rayan','Refat'];
-  List numbers = [3.8,3.2,2.5];
+  //List numbers = [3.8,3.2,2.5];
 
   for(var studentsnames in names){
     print('Good Morning: $studentsnames');
-  };
+  }
 
   var studentMap = {
     {'name': 'Lazim',
@@ -36,7 +36,7 @@ main(){
     totalCGPA +=students['cgpa'] as double;
    print("Students name is: ${students['name']} and CGPA is ${students['cgpa']}");
   }
-  print("Total CGPA is:  ${totalCGPA}");
+  print("Total CGPA is:  $totalCGPA");
 
   var snames = {'Lazim','Rayan','Helal'};
   for (var name in snames){
