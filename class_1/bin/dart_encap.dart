@@ -1,27 +1,8 @@
-class Restaurant{
-
-  Restaurant(){
-    _shopping();
-  }
-
-  String order(String item){
-    _prepareItem(item);
-    return "$item Served";
-  }
-
-  //private function
-  _prepareItem(String item){
-    print("Make $item");
-  }
-
-  _shopping(){
-    print("Buy Material");
-  }
-}
-
-
+import "dart_classRestaurant.dart";
 
 main(){
   Restaurant kfc = Restaurant();
   print(kfc.order("Nugget"));
+  kfc.setID = 1010;
+  print(kfc.RestaurantId);
 }
