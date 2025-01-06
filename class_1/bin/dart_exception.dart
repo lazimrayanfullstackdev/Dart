@@ -39,14 +39,14 @@ main() {
     String ? name;
     print(name!.length);
   }catch(e){
-    print(e);
+    print("Error in $e");
   }
 
 
   try{
     int num = int.parse("abc");
     print(num);
-  } on FormatException catch(e){
+  } on FormatException {
     print("Format Ex");
   }catch(e){
     print("Normal catch ");
